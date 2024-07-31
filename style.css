@@ -1,0 +1,920 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#nav1 {
+  height: 8%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+#nav1 #box1 {
+  /* background-color: antiquewhite; */
+  height: 100%;
+  width: 70%;
+  display: flex;
+}
+#nav1 #bx1 img {
+  margin-top: 25px;
+  margin-left: 50px;
+}
+#bx2 {
+  display: flex;
+  align-items: center;
+  padding-left: 70px;
+  gap: 35px;
+  cursor: pointer;
+}
+#bx2 h6 {
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+#a {
+  padding: 3px 5px;
+  background-color: #901913;
+  font-size: 19px;
+}
+#box2 {
+  color: white;
+  padding-left: 300px;
+  cursor: pointer;
+}
+#box2 i {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 15px;
+}
+#nav2 {
+  height: 70%;
+  width: 100%;
+  background-color: #622225;
+}
+#nav2 #a {
+  height: 100%;
+  width: 100%;
+  background-image: url(https://www.lakmeindia.com/cdn/shop/collections/1440x530_Landing_Banner_1600x.jpg?v=1691476271);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all ease;
+}
+#nav2 #a:hover {
+  scale: 0.9;
+}
+#nav3 {
+  height: 50%;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+#nav3 .box3 {
+  height: 100%;
+  width: 30%;
+}
+.box3 {
+  background-image: url(https://www.lakmeindia.com/cdn/shop/products/29368_H_8901030911880_600x.jpg?v=1669895321);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.box3:hover {
+  background-image: url(Screenshot\ 2023-08-15\ 153150.png);
+}
+#nav3 .box4 {
+  height: 100%;
+  width: 30%;
+}
+.box4 {
+  background-image: url(https://images-static.nykaa.com/media/catalog/product/tr:h-800,w-800,cm-pad_resize/2/4/24458_h-8901030742781.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.box4:hover {
+  background-image: url(Screenshot\ 2023-08-15\ 154719.png);
+}
+#nav3 .box5 {
+  height: 100%;
+  width: 30%;
+}
+.box5 {
+  background-image: url(https://www.lakmeindia.com/cdn/shop/products/nile1_ffc4d10d-6a33-467e-96d2-8030e469afb0_600x.png?v=1672381059);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.box5:hover {
+  background-image: url(Screenshot\ 2023-08-15\ 153856.png);
+  background-position: top;
+}
+#nav4 {
+  height: 20%;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.bxx {
+  height: 100%;
+  width: 30%;
+  /* background-color: #901913; */
+}
+#x h6 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7b1942;
+  text-align: center;
+}
+#x p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 95px;
+  font-size: 15px;
+}
+#x h5 {
+  /* font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    padding-left: 95px;
+    font-size: 15px; */
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+
+.bxx button {
+  padding: 12px 230px;
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  transition: all ease;
+}
+.bxx button:hover {
+  background-color: white;
+  color: black;
+}
+#y h6 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7b1942;
+  text-align: center;
+}
+#y p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 95px;
+  font-size: 15px;
+}
+#y h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+#z h6 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7b1942;
+  text-align: center;
+}
+#z p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 95px;
+  font-size: 15px;
+}
+#z h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+#nav5 {
+  height: 50%;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#nav5 .bx3 {
+  height: 100%;
+  width: 30%;
+}
+.bx3 {
+  background-image: url(https://rukminim2.flixcart.com/image/850/1000/kwjkuq80/mascara/y/a/f/-original-imag975vsmuj3qdg.jpeg?q=90);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.bx3:hover {
+  background-image: url(https://th.bing.com/th/id/OIP.u5wO5zd4xYKLAxT1UcN5EQHaHa?w=209&h=209&c=7&r=0&o=5&pid=1.7);
+  background-position: bottom;
+}
+
+/* background-image: url(https://rukminim2.flixcart.com/image/850/1000/kwjkuq80/mascara/y/a/f/-original-imag975vsmuj3qdg.jpeg?q=90);
+background-position: bottom; */
+#nav5 .bx4 {
+  height: 100%;
+  width: 30%;
+}
+.bx4 {
+  background-image: url(https://6c819239693cc4960b69-cc9b957bf963b53239339d3141093094.lmsin.net/1000006113092-1000006113091-621556_06-1200.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.bx4:hover {
+  background-image: url(Screenshot\ 2023-08-15\ 182653.png);
+}
+#nav5 .bx5 {
+  height: 100%;
+  width: 30%;
+}
+.bx5 {
+  background-image: url(https://www.lakmeindia.com/cdn/shop/products/29112_H1-8901030849282_600x.jpg?v=1632136483);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.bx5:hover {
+  background-image: url(Screenshot\ 2023-08-15\ 182529.png);
+}
+#nav6 {
+  height: 20%;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.bo {
+  height: 100%;
+  width: 30%;
+}
+#l p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 95px;
+  font-size: 15px;
+}
+#l h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+.bo button {
+  padding: 12px 230px;
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  transition: all ease;
+}
+.bo button:hover {
+  background-color: white;
+  color: black;
+}
+
+#m p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 95px;
+  font-size: 15px;
+}
+#m h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+#q p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 95px;
+  font-size: 15px;
+}
+#q h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+#nav7 {
+  height: 50%;
+  width: 100%;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#nav7 .bx6 {
+  height: 100%;
+  width: 30%;
+}
+.bx6 {
+  background-image: url(https://www.lakmeindia.com/cdn/shop/products/1_tropical-beach---red-boots_ae30aff5-c68a-443f-bb7d-2f6cd24bee85_600x.jpg?v=1641987013);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.bx6:hover {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtLUWwfFB03LeYqsHb1LuLyNFVUv2ITtKALA&usqp=CAU);
+}
+#nav7 .bx7 {
+  height: 100%;
+  width: 30%;
+}
+
+.bx7 {
+  background-image: url(https://th.bing.com/th/id/R.e15ebc674226f61f19306c9818faced0?rik=no520Ji5SQNSuQ&riu=http%3a%2f%2fpoutprettty.com%2fwp-content%2fuploads%2f2016%2f07%2fLakme-Eyeconic-Kajal.jpg&ehk=5oJDDFgcXbVNh9%2bdg4QUAWxdTRoRS0vXq9zcKQiQ368%3d&risl=&pid=ImgRaw&r=0);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.bx7:hover {
+  background-image: url(Screenshot\ 2023-08-16\ 202551.png);
+}
+#nav7 .bx8 {
+  height: 100%;
+  width: 30%;
+}
+.bx8 {
+  background-image: url(https://www.lakmeindia.com/cdn/shop/products/Shade-01_600x.png?v=1653489172);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 15px; */
+  transition: all ease;
+}
+.bx8:hover {
+  background-image: url(Screenshot\ 2023-08-16\ 202723.png);
+  background-position: bottom;
+}
+#nav8 {
+  height: 20%;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.hs {
+  height: 100%;
+  width: 30%;
+}
+#s p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 130px;
+  font-size: 15px;
+}
+#s h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+.hs button {
+  padding: 12px 230px;
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  transition: all ease;
+}
+.hs button:hover {
+  background-color: white;
+  color: black;
+}
+#o p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 130px;
+  font-size: 15px;
+}
+#o h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+#n p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  padding-left: 95px;
+  font-size: 15px;
+}
+#n h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-left: 250px;
+}
+#nav9 {
+  height: 15%;
+  width: 100%;
+}
+#nav9 #hello button {
+  color: #901913;
+  border-color: #901913;
+  margin-left: 45%;
+  height: 50px;
+  width: 220px;
+  font-weight: 800;
+  font-size: 17px;
+  border-radius: 27px;
+  cursor: pointer;
+}
+#hello button:hover {
+  scale: 1.02;
+}
+#nav9 h6 {
+  font-size: 20px;
+  font-weight: 800;
+  word-spacing: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1%;
+  margin-left: 44%;
+  position: relative;
+}
+#nav9 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  color: #454545;
+  margin-left: 46.5%;
+  margin-top: 0.5%;
+}
+.hr-lines:before {
+  content: ' ';
+  height: 2px;
+  width: 300px;
+  position: absolute;
+  background-color: black;
+  right: 101%;
+  top: 50%;
+}
+.hr-lines:after {
+  content: ' ';
+  height: 2px;
+  width: 300px;
+  position: absolute;
+  background-color: black;
+  /* right: 101%; */
+  top: 50%;
+}
+#nav10 {
+  height: 40%;
+  width: 100%;
+  /* background-color: yellow; */
+  background-image: url(https://www.lakmeindia.com/cdn/shop/files/HP_Desktop_lakme_glam_squad_bfc5c43d-89ab-4f96-9622-5139290920c0_900x.jpg?v=1688638483);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+#nav11 {
+  height: 6%;
+  width: 100%;
+  /* background-color: antiquewhite; */
+}
+#nav11 h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  word-spacing: 15px;
+  margin-left: 40%;
+  position: relative;
+}
+#nav11 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  color: #454545;
+  margin-left: 46.5%;
+  margin-top: 0.5%;
+}
+#nav12 {
+  height: 60%;
+  width: 100%;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+#ox1 {
+  height: 500px;
+  width: 455px;
+  /* background-color: #622225; */
+  background-image: url(Screenshot\ 2023-08-17\ 172355.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+#ox2 {
+  height: 500px;
+  width: 455px;
+  /* background-color: #622225; */
+  background-image: url(Screenshot\ 2023-08-17\ 172409.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+#ox3 {
+  height: 500px;
+  width: 455px;
+  /* background-color: #622225; */
+  background-image: url(Screenshot\ 2023-08-17\ 172430.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+#ox4 {
+  height: 500px;
+  width: 455px;
+  /* background-color/: #622225; */
+  background-image: url(Screenshot\ 2023-08-17\ 172538.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+}
+#nav13 {
+  height: 8%;
+  width: 100%;
+  /* background-color: antiquewhite; */
+}
+#nav13 h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  word-spacing: 15px;
+  margin-left: 45%;
+  position: relative;
+}
+#nav13 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  color: #454545;
+  margin-left: 47.5%;
+  margin-top: 0.5%;
+}
+#nav14 {
+  height: 45%;
+  width: 100%;
+  /* background-color: bisque; */
+}
+#nav14 #yes {
+  height: 100%;
+  width: 100%;
+  /* background-color: #622225; */
+  display: flex;
+  justify-content: space-around;
+}
+#yes1 {
+  height: 100%;
+  width: 25%;
+  background-color: white;
+  background-image: url(https://th.bing.com/th/id/OIP.g7o9Gf6w6_4p2bPOrPx5WQHaHa?w=204&h=204&c=7&r=0&o=5&pid=1.7);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  object-fit: cover;
+  border: solid 0.5px;
+  border-color: #d9d9d9;
+  border-radius: 26px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+#yes1:hover {
+  background-image: url(Screenshot\ 2023-08-17\ 191532.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#yes2 {
+  height: 100%;
+  width: 22%;
+  background-color: white;
+  background-image: url(data:image/jpeg;base64,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);
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  border: solid 0.5px;
+  border-color: #d9d9d9;
+  border-radius: 26px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+#yes2:hover {
+  background-image: url(Screenshot\ 2023-08-17\ 191549.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#yes3 {
+  height: 100%;
+  width: 22%;
+  background-color: white;
+  background-image: url(https://www.lakmeindia.com/cdn/shop/products/FOP_c1d6ec68-27ba-470c-a6e0-116bf961b27e_600x.jpg?v=1680679833);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 0.5px;
+  border-color: #d9d9d9;
+  border-radius: 26px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+#yes3:hover {
+  background-image: url(Screenshot\ 2023-08-17\ 191601.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#yes4 {
+  height: 100%;
+  width: 22%;
+  background-color: white;
+  background-image: url(https://www.lakmeindia.com/cdn/shop/products/29373_H-8901030916014_600x.jpg?v=1669891761);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: solid 0.5px;
+  border-color: #d9d9d9;
+  border-radius: 26px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
+}
+#yes4:hover {
+  background-image: url(Screenshot\ 2023-08-17\ 192502.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#nav14 #no {
+  height: 40%;
+  width: 100%;
+  /* background-color: #7B1942; */
+  display: flex;
+  justify-content: space-around;
+}
+#no1 {
+  height: 100%;
+  width: 22%;
+  background-color: #f6f6f6;
+  border: solid 0.5px;
+  border-color: #d9d9d9;
+  border-radius: 26px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+#no2 {
+  height: 100%;
+  width: 22%;
+  background-color: #f6f6f6;
+  border: solid 0.5px;
+  border-color: #d9d9d9;
+  border-radius: 26px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+#no3 {
+  height: 100%;
+  width: 22%;
+  background-color: #f6f6f6;
+  border: solid 0.5px;
+  border-color: #d9d9d9;
+  border-radius: 26px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+#no4 {
+  height: 100%;
+  width: 22%;
+  background-color: #f6f6f6;
+  border: solid 0.5px;
+  border-color: #d9d9d9;
+  border-radius: 26px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-top: none;
+}
+#nav14 #no h6 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 25px;
+  font-weight: 800;
+}
+#nav14 #no .noo button {
+  height: 23%;
+  width: 90%;
+  margin-top: 30px;
+  margin-left: 18px;
+  background-color: #901913;
+  color: white;
+  border-color: #901913;
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+#nav14 #no .noo button:hover {
+  background-color: white;
+  color: black;
+  font-weight: 800;
+}
+#nav15 {
+  height: 15%;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 10%;
+}
+#nav15 #button button {
+  background-color: white;
+  color: #901913;
+  border-color: #901913;
+  margin-left: 45%;
+  height: 50px;
+  width: 220px;
+  font-weight: 800;
+  font-size: 17px;
+  border-radius: 27px;
+  cursor: pointer;
+}
+#nav15 h6 {
+  font-size: 20px;
+  font-weight: 800;
+  word-spacing: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1%;
+  margin-left: 44%;
+  position: relative;
+}
+#nav15 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  color: #454545;
+  margin-left: 45%;
+  margin-top: 0.5%;
+}
+#nav16 {
+  height: 68%;
+  width: 100%;
+  /* background-color: antiquewhite; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#bye {
+  height: 640px;
+  width: 600px;
+  /* background-color: chocolate; */
+  background-image: url(https://www.lakmeindia.com/cdn/shop/files/new-HP_makeup-pro_1044-x-924_ea6022a7-f06d-4a2c-88d4-ee1883a042d4_600x.png?v=1679982739);
+  background-repeat: no-repeat;
+  border: solid 1px;
+  border-radius: 25px;
+}
+#bye1 {
+  height: 640px;
+  width: 600px;
+  /* background-color: chocolate; */
+  background-image: url(https://www.lakmeindia.com/cdn/shop/files/new-HP_foundation-finder_1044-x-924_fff42928-6938-48dc-b1ba-71b9b2298512_600x.png?v=1679982826);
+  background-repeat: no-repeat;
+  border: solid 1px;
+  border-radius: 25px;
+}
+#bye2 {
+  height: 640px;
+  width: 600px;
+  /* background-color: chocolate; */
+  background-image: url(https://www.lakmeindia.com/cdn/shop/files/new-HP_skin-pro_1044-x-924_0d53513f-b654-4fea-9872-30d8f195eed1_600x.png?v=1679989312);
+  background-repeat: no-repeat;
+  border: solid 1px;
+  border-radius: 25px;
+}
+#nav16 .bby {
+  background-color: #901913;
+  color: white;
+  height: 38px;
+  width: 95%;
+  border-color: #901913;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-top: 98%;
+}
+#nav16 .bby:hover {
+  scale: 1.02;
+}
+#nav17 {
+  height: 23%;
+  width: 100%;
+  /* background-color: antiquewhite; */
+}
+#nav17 h6 {
+  font-size: 20px;
+  font-weight: 800;
+  word-spacing: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 3%;
+  margin-left: 44%;
+  position: relative;
+}
+#nav17 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  color: #454545;
+  margin-left: 45%;
+  margin-top: 1%;
+}
+#nav17 button {
+  height: 42px;
+  width: 30%;
+  background-color: #901913;
+  color: white;
+  font-weight: 800;
+  word-spacing: 10px;
+  border: solid 1px #901913;
+  margin-left: 35%;
+  margin-top: 2%;
+  border-radius: 25px;
+}
+#nav17 #reel {
+  margin-top: 1.5%;
+  margin-left: 43.5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #454545;
+}
+#nav17 p2 {
+  color: #901913;
+}
